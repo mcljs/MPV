@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.tex-container{
+  text-align: center;
+  background-color: #1062ae;
+}

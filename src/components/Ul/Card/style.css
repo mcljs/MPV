@@ -1,0 +1,16 @@
+.card{
+    width: 100%;
+    background: #fff;
+}
+@media (max-width: 700px){
+    .card{
+        width: 103%;
+      height: auto;
+    }
+    .personalBlo{
+        font-size: 10px;
+        text-align: center;
+        box-sizing: border-box;
+        
+    }
+  }

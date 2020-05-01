@@ -1,0 +1,11 @@
+.postimageWrapper{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-position: center;
+}
+
+.fundationletra{
+color: #1062ae ;
+}

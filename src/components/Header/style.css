@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    background: #4D4D4D;;
+}
+
+.icon-header{
+    width: 60px;
+}
+
+.headerMenu a{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+}
+
+.headerMenu a:hover{
+    color: hsl(182, 25%, 50%)
+}
+
+
+
+.etiqueta{
+    display: ruby-text;
+    color: #fff;
+    margin-left: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.etiqueta p{
+    margin-left: -15px;
+    color: #fff;
+    margin: 10px 0;
+}

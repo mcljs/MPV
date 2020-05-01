@@ -1,0 +1,12 @@
+body{
+  background: #e9eaed;
+  font-family: 'Oswald', sans-serif;
+}
+
+/*Parte superior principal del panel*/
+.App{
+  width: 90%;
+  margin: 0 auto;
+
+}
+

@@ -1,0 +1,42 @@
+{
+    "data":[
+    {
+
+    "id": 1,
+    "blogCategory": "Destacada",
+    "blogTitle": "Venezuela confirma 7 nuevos casos por Covid-19 para un total de 318 contagiados",
+    "slug":"venezuela-confirma-7-nuevos-casos-por-Covid-19",
+    "postedOn": "Abril 24,2020",
+    "blogImage":"24abril.jpg",
+    "blogText": "Venezuela confirma 7 nuevos casos por Covid-19 para un total de 318 contagiados"
+  },
+  {
+    "id": 2,
+    "blogCategory": "Destacada",
+    "blogTitle": "Gobierno referencia página web a los venezolanos en etapa de flexibilización en el control del COVID-19",
+    "slug":"venezuela-registra-dos-nuevos-casos-de-covid-19-en-ultimas-24-horas" , 
+    "postedOn": "Abril 25,2020",
+    "blogImage":"25abril.jpg",
+    "blogText": "El Gobierno Nacional referencia página web de España 1km.geomatico.es para que los venezolanos y venezolanas conozcan su radio de acción durante flexibilización que acompaña etapa de control del Coronavirus (COVID-19) en el país."
+  },
+  {
+    "id": 3,
+    "blogCategory": "Destacada",
+    "blogTitle": "Venezuela dispuesta a recibir asistencia técnica humanitaria internacional a través de la OMS",
+    "slug":"venezuela-dispuesta-a-recibir-asistencia-técnica-humanitaria-internacional-a-traves-de-la-oms",
+    "postedOn": "Abril 28,2020",
+    "blogImage":"28abril.jpg",
+    "blogText": "El Gobierno Nacional ratificó que está dispuesto a recibir asistencia técnica humanitaria de cualquier país que así lo manifieste, bajo la coordinación de la Organización Mundial de la Salud (OMS) y de la Organización Panamericana de la Salud (OPS)."
+  },
+  {
+    "id": 4,
+    "blogCategory": "Destacada",
+    "blogTitle": "Venezuela registra dos nuevos casos de COVID-19 en las últimas 24 horas",
+    "slug": "venezuela-registra-dos-nuevos-casos-de-covid-19",
+    "postedOn": "Abril 30,2020",
+    "blogImage":"30abril.jpg",
+    "blogText": "El Gobierno Nacional ratificó que está dispuesto a recibir asistencia técnica humanitaria de cualquier país que así lo manifieste, bajo la coordinación de la Organización Mundial de la Salud (OMS) y de la Organización Panamericana de la Salud (OPS)."
+  }
+
+]
+}
