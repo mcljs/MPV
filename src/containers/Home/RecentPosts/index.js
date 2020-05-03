@@ -10,36 +10,47 @@ import { NavLink } from 'react-router-dom';
 const RecentPosts = (props) => {
   return(
     <div style={props.style}>
-    <Card style={{marginBottom: '20px'}}>
-    <div className="postimageWrapper">
-    <img src={require("../../../blogNoticeimages/24abril.jpg")} alt=""/>
+    <Card style={{marginBottom: '20px',display: "flex",
+    position: "relative"}}>
+  
+  <div className="titlerecentepost" style={{textAlign:'center'}}>
+        <h2><NavLink to='/Noticias/venezuela-reporta-10-nuevos-contagios-por-covid-19'
+        style={{textDecoration:'none', color: '#e41e25', textAlign: 'center',fontSize: '30px'}}>Venezuela Reporta 10 Nuevos Contagios Por COVID-19</NavLink></h2>
+        
+        <div className="postimageWrapper">
+    <img src={require("../../../blogNoticeimages/2mayo.jpg")} alt=""/>
             </div>
-
-    <div className="titlerecentepost" style={{textAlign:'center'}}>
-        <h2>Venezuela confirma 7 nuevos casos por Covid-19 para un total de 318 contagiados</h2>
-        <spa><NavLink to='/Noticias/venezuela-confirma-7-nuevos-casos-por-Covid-19'>14 de Abril 2020</NavLink></spa>
-        <p>El Gobierno Nacional referencia página web de España 
-          1km.geomatico.es para que los 
-          venezolanos y venezolanas conozcan 
-          su radio de acción durante flexibilización que acompaña etapa de control del Coronavirus (COVID-19) en el país.</p>
+        <time>2 mayo 2020</time>
+        <p>A 345 asciende el total de contagios por
+           COVID-19 en Venezuela, luego de que se 
+           confirmaran 10 nuevos casos en las últimas
+            24 horas. El balance lo ofreció el 
+            vicepresidente de Comunicación, 
+            Cultura y Turismo, Jorge Rodríguez</p>
     </div>
 
 
 
     </Card>
 
-    <Card style={{marginBottom: '20px'}}>
-    <div className="postimageWrapper">
-    <img src={require("../../../blogNoticeimages/25abril.jpg")}/>
+    <Card style={{marginBottom: '20px',display: "flex",
+    position: "relative"}}>
+  
+  <div className="titlerecentepost" style={{textAlign:'center'}}>
+        <h2><NavLink to='/Noticias/venezuela-registra-dos-nuevos-casos-de-covid-19-en-ultimas-24-horas'
+        style={{textDecoration:'none', color: '#e41e25', textAlign: 'center',fontSize: '30px'}}
+        >Gobierno Referencia Página Web A Los Venezolanos En Etapa De Flexibilización En El Control Del COVID-19
+        </NavLink></h2>
+        
+        <div className="postimageWrapper">
+    <img src={require("../../../blogNoticeimages/25abril.jpg")} alt=""/>
             </div>
-
-    <div className="titlerecentepost" style={{textAlign:'center'}}>
-        <h2>Venezuela confirma 7 nuevos casos por Covid-19 para un total de 318 contagiados</h2>
-        <spa>25 de Abril</spa>
+        <time>25 Abril 2020</time>
         <p>El Gobierno Nacional referencia página web de España 
-          1km.geomatico.es para que los 
-          venezolanos y venezolanas conozcan 
-          su radio de acción durante flexibilización que acompaña etapa de control del Coronavirus (COVID-19) en el país.</p>
+          1km.geomatico.es para que los venezolanos 
+          y venezolanas conozcan su radio de acción 
+          durante flexibilización que acompaña etapa de control del 
+          Coronavirus (COVID-19) en el país.</p>
     </div>
 
 

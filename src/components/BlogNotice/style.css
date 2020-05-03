@@ -16,9 +16,10 @@
 .noticeTitle{
     letter-spacing: 0.5px;
     text-transform: capitalize;
+    color: #e41e25;
     font-size: 30px;
+    text-decoration: none;
     margin: 0;
-    font-size: 400;
 }
 
 .noticeBy{
@@ -45,15 +46,19 @@
     margin: 10px;
 }
 
-.noticeContent h3{
-   font-weight: 400;
+.noticeContent h2{
    color: #1062ae ; 
+   font-weight: 500;
+    text-align: center;
 }
 
-.postContent p{
-    font-size: 14px;
-    color: #6c6c6c;
-    font-weight: 300;   
-    letter-spacing: 1px;
-    padding-bottom: 20px 0;
+.noticeContent p{
+    margin: 0 0 1.5em;
+    padding: 0;
+}
+
+.noticeContent a{
+    font-style: italic;
+    color: #1062ae;
+    text-decoration: none;
 }

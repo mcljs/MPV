@@ -7,5 +7,10 @@
 
 .tex-container{
   text-align: center;
-  background-color: #1062ae;
+  background-color:#1062ae ;
+}
+
+.tex-container p{
+  text-transform: uppercase;
+  color: #fff;
 }

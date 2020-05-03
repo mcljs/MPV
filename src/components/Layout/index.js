@@ -15,13 +15,13 @@ const Layout = (props) => {
         {props.children}
         <Sidebar />
     </div>
-    <div className="tex-container">
     <Card>
+    <div className="tex-container">
     <p >Sitio WEB Desarrollado Por</p>
-    <p>Oficina de Direccion de Estado</p>
+    <p>Oficina de Direccion Nacional de Estado - Regiones</p>
     <p>Movimiento Por La Paz Y la vida</p>
-    </Card>
     </div>
+    </Card>
       </React.Fragment>
     
    )

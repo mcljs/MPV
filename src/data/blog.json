@@ -1,6 +1,25 @@
 {
     "data":[
     {
+      "id": 3,
+      "blogCategory": "Destacada",        
+      "blogTitle": "Venezuela reporta 10 nuevos contagios por COVID-19",
+      "slug":"venezuela-reporta-10-nuevos-contagios-por-covid-19",
+      "postedOn": "Mayo 02,2020",
+      "blogImage":"2mayo.jpg",        
+      "blogText": "Palacio de Miraflores, Caracas.- A 345 asciende el total de contagios por COVID-19 en Venezuela, luego de que se confirmaran 10 nuevos casos en las últimas 24 horas.", 
+      "blogText2": "El balance lo ofreció el vicepresidente de Comunicación, Cultura y Turismo, Jorge Rodríguez, quien detalló que los contagios están distribuidos entre Miranda (1), Táchira (1) y Nueva Esparta (8), este último corresponde al foco de infección registrado en el municipio Gómez.",
+      "blogText3": "“Los ocho son consecuencia de la irresponsabilidad de los dueños, de los directivos de la academia de béisbol de Pedro González”, subrayó desde el Palacio de Miraflores, ubicado en Caracas.",
+      "blogText4": "De los casos reportados, nueve son contagios comunitarios, mientras que uno se encuentra en estudio a fin de determinar la procedencia de la infección.",
+      "blogText5": "Las estadísticas de recuperación se mantienen en 148, lo que se traduce en 42,9% de los casos registrados desde el 13 de marzo. En tanto, 95 personas se encuentran en hospitales centinelas, 69 en Centros de Diagnóstico Integral (CDI) y 23 en clínicas privadas.",
+      "blogText6": "Rodríguez puntualizó, quien destacó la mejoría de pacientes que se encuentran en Unidades de Cuidados Intensivo (UCI), que 112 personas están asintomáticas, 70 con insuficiencia respiratoria aguda-leve, 3 con insuficiencia respiratoria moderada y 2 con insuficiencia respiratoria grave.",
+      "blogText7": "Hasta el momento, Nueva Esparta (108), Miranda (91) y Distrito Capital (32) concentran el mayor número de contagios del territorio nacional.",
+      "blogText8": "En relación a las pruebas de diagnóstico rápido, precisó que se han aplicado 477 mil 790, lo que representa 15 mil 926 test por millón de habitantes.",
+      "blogText9": "Apuntó que a partir de la encuesta de salud, disponible en la plataforma Patria, 197 mil 928 venezolanos han recibido la visita de profesionales de la salud en las jornadas de despistaje ampliado.",
+      "author": "Prensa Presidencial",
+      "webAuthor": "https://www.facebook.com/notes/prensa-presidencial/venezuela-reporta-10-nuevos-contagios-por-covid-19/3180573148633064/?__tn__=HH-R"  
+      },
+    {
 
     "id": 1,
     "blogCategory": "Destacada",
@@ -8,7 +27,8 @@
     "slug":"venezuela-confirma-7-nuevos-casos-por-Covid-19",
     "postedOn": "Abril 24,2020",
     "blogImage":"24abril.jpg",
-    "blogText": "Venezuela confirma 7 nuevos casos por Covid-19 para un total de 318 contagiados"
+    "blogText": "Venezuela confirma 7 nuevos casos por Covid-19 para un total de 318 contagiados",
+    "author": "La Radio del Sur"  
   },
   {
     "id": 2,
@@ -17,26 +37,10 @@
     "slug":"venezuela-registra-dos-nuevos-casos-de-covid-19-en-ultimas-24-horas" , 
     "postedOn": "Abril 25,2020",
     "blogImage":"25abril.jpg",
-    "blogText": "El Gobierno Nacional referencia página web de España 1km.geomatico.es para que los venezolanos y venezolanas conozcan su radio de acción durante flexibilización que acompaña etapa de control del Coronavirus (COVID-19) en el país."
-  },
-  {
-    "id": 3,
-    "blogCategory": "Destacada",
-    "blogTitle": "Venezuela dispuesta a recibir asistencia técnica humanitaria internacional a través de la OMS",
-    "slug":"venezuela-dispuesta-a-recibir-asistencia-técnica-humanitaria-internacional-a-traves-de-la-oms",
-    "postedOn": "Abril 28,2020",
-    "blogImage":"28abril.jpg",
-    "blogText": "El Gobierno Nacional ratificó que está dispuesto a recibir asistencia técnica humanitaria de cualquier país que así lo manifieste, bajo la coordinación de la Organización Mundial de la Salud (OMS) y de la Organización Panamericana de la Salud (OPS)."
-  },
-  {
-    "id": 4,
-    "blogCategory": "Destacada",
-    "blogTitle": "Venezuela registra dos nuevos casos de COVID-19 en las últimas 24 horas",
-    "slug": "venezuela-registra-dos-nuevos-casos-de-covid-19",
-    "postedOn": "Abril 30,2020",
-    "blogImage":"30abril.jpg",
-    "blogText": "El Gobierno Nacional ratificó que está dispuesto a recibir asistencia técnica humanitaria de cualquier país que así lo manifieste, bajo la coordinación de la Organización Mundial de la Salud (OMS) y de la Organización Panamericana de la Salud (OPS)."
+    "blogText": "El Gobierno Nacional referencia página web de España 1km.geomatico.es para que los venezolanos y venezolanas conozcan su radio de acción durante flexibilización que acompaña etapa de control del Coronavirus (COVID-19) en el país.",
+    "author": "La Radio del Sur"
   }
+  
 
 ]
 }

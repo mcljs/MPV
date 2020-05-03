@@ -27,8 +27,6 @@ const Home  = props => {
    const imgAr = blogData.data.map(post => post.blogImage)
     return (
         <div>
-          
-          
                 <Layout>
                     <RecentPosts style={{width: '70%'}}/>
                 </Layout>

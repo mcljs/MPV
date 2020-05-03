@@ -1,0 +1,59 @@
+import React, {Component} from 'react';
+import {Bar, Line, Pie} from 'react-chartjs-2';
+
+class Chartdos extends Component{
+  constructor(props){
+    super(props);
+    this.state = {
+      chartData:{
+        labels: ['Organizativa','Recreativa','Deportiva',
+        'Cultural','Productiva','Formativa','Comunicacional'
+        , 'Preventiva'],
+        datasets:[{
+            label: 'Actividades',
+            data:[246,245,734,313,166,383,244,524],
+            backgroundColor:[
+                'rgb(70,132,238,0.7)',
+                    'rgb(220,57,28,0.7)',
+                    'rgb(255,153,0,0.7)',
+                    'rgb(0,128,0,0.7)',
+                    'rgb(119,47,60,0.7)',
+                    'rgb(103,0,206,0.7)',
+                    'rgb(152,72,7,0.7)',
+                    'rgb(0,32,96,0.7)',
+            ]
+        }]
+      }
+    }
+  }
+
+
+  render(){
+    return (
+      <div className="chart">
+        <Bar
+          data={this.state.chartData}
+          var options={{
+            scales: {
+              yAxes: [{
+                ticks: {
+                  beginAtZero: true
+                }
+              }]
+            },
+            legend:{
+                display:this.props.displayLegend,
+              }
+          }}
+        />
+
+
+
+
+
+      </div>
+    )
+  }
+}
+
+export default Chartdos;

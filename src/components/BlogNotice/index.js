@@ -16,7 +16,16 @@ const BlogPost = (props) => {
     blogOn: "" ,
     blogImage: "",
     blogText: "",
-
+    blogText2: "",
+    blogText3: "",
+    blogText4: "",
+    blogText5: "",
+    blogText6: "",
+    blogText7: "",
+    blogText8: "",
+    blogText9: "",
+    author: "",
+    webAuthor: "",
 
   });
   const[slug,setSlug]=useState ('');
@@ -44,8 +53,18 @@ const BlogPost = (props) => {
              </div>
 
              <div className="noticeContent">
-               <h3>{post.blogTitle}</h3>
+               <h2>{post.blogTitle}</h2>
                <p>{post.blogText}</p>
+               <p>{post.blogText2}</p>
+               <p>{post.blogText3}</p>
+               <p>{post.blogText4}</p>
+               <p>{post.blogText5}</p>
+               <p>{post.blogText6}</p>
+               <p>{post.blogText7}</p>
+               <p>{post.blogText8}</p>
+               <p>{post.blogText9}</p>
+               <p><em><a href={post.webAuthor}>{post.author}</a></em></p>
+
              </div>
              
 

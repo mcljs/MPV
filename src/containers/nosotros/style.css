@@ -6,6 +6,10 @@
     background-position: center;
 }
 
-.fundationletra{
+.fundationletra h2{
 color: #1062ae ;
+}
+
+.fundationletra h3{
+    color: #e41e25;
 }

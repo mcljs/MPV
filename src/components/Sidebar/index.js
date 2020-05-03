@@ -35,13 +35,17 @@ const Sidebar = (props) => {
         como propósito apoyar e impulsar una cultura a favor 
         de la convivencia pacífica y solidaria... 
         </p>
-        <a><NavLink to="/nosotros">Leer Mas</NavLink></a>
+        <a><NavLink to="/nosotros"
+        style={{textDecoration:'none', color: '#e41e25', textAlign: 'center',fontSize: '18px'}}>Leer Mas</NavLink></a>
       </div>
     </Card>
 
     <Card style={{marginBottom: '20px', padding:'20px',boxSizing:'border-box'}}>
       <div className="cardHeader">
       <span>Red Social</span>
+      <a href={`https://twitter.com/AsuntosDPaz`}>
+      <img src={require('../Sidebar/img/twitter.png')}/>
+      </a>
       </div>
     </Card>
 

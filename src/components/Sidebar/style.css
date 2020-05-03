@@ -11,6 +11,10 @@
     color: #1062ae ;
 }
 
+.cardHeader img{
+ margin: 20px 0; 
+}
+
 .profileimageContainer{
     width: 100%;  
     box-sizing: border-box;
