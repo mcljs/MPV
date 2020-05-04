@@ -1,14 +1,19 @@
 import React from 'react';
 import './style.css';
 import {NavLink} from 'react-router-dom';
+import {AppBar,Toolbar,Typography,useScrollTrigge} from '@material-ui/core'
 /**
  * @author
  * @function Header
  */
 
 /**Encabezado */
+
  const Header = (props) =>{
      return(
+         <>
+         <AppBar position = "sticky">
+             <Toolbar variant="dense">
          <header className="header">
              <nav className="headerMenu">
                  <div>
@@ -23,7 +28,11 @@ import {NavLink} from 'react-router-dom';
                  <p>Direccion Nacional De Estado</p>
              </div>
          </header>
+         </Toolbar>
+         </AppBar>
+         </>
      )
  }
 
  export default Header
+

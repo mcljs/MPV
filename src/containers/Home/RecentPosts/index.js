@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css'
 import Card from '../../../components/Ul/Card';
 import { NavLink } from 'react-router-dom';
+import Tweet from './tweet';
 /**
 * @author
 * @function RecentPosts
@@ -9,7 +10,13 @@ import { NavLink } from 'react-router-dom';
 
 const RecentPosts = (props) => {
   return(
+    
     <div style={props.style}>
+   <Tweet style={{ padding:'20px',display: 'flex'}}/> 
+   <h2>
+     
+   </h2>
+
     <Card style={{marginBottom: '20px',display: "flex",
     position: "relative"}}>
   

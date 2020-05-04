@@ -43,9 +43,11 @@ const Sidebar = (props) => {
     <Card style={{marginBottom: '20px', padding:'20px',boxSizing:'border-box'}}>
       <div className="cardHeader">
       <span>Red Social</span>
+      <div className="socialimagencontainer">
       <a href={`https://twitter.com/AsuntosDPaz`}>
       <img src={require('../Sidebar/img/twitter.png')}/>
       </a>
+      </div>
       </div>
     </Card>
 
