@@ -4,6 +4,7 @@ import Card from '../Ul/Card';
 import { NavLink } from 'react-router-dom';
 
 import blogPost from '../../data/blog.json'; 
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 /**
 * @author
@@ -75,8 +76,30 @@ const Sidebar = (props) => {
     </div>
 
     </Card>
+    <Card>
+    <div className="cardHeader">
+      <span>Cuenta Oficial Del Presidente de La Republica</span>
+    <TwitterTimelineEmbed source Type="NicolasMaduro"
+  screenName="NicolasMaduro"
+  options={{height: 400}}/>
+  </div>
+  </Card>
+<h2></h2>
 
+
+<Card>
+    <div className="cardHeader">
+      <span>Cuenta Oficial Del VICEMINISTRO ALEXANDER VARGAS</span>
+<TwitterTimelineEmbed
+  sourceType="profile"
+  screenName="mimouvargas"
+  options={{height: 400}}
+/>
+</div>
+  </Card>
     </div>
+
+  
    )
 
  }

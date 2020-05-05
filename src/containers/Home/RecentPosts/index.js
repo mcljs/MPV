@@ -3,6 +3,8 @@ import './style.css'
 import Card from '../../../components/Ul/Card';
 import { NavLink } from 'react-router-dom';
 import Tweet from './tweet';
+import { TwitterTweetEmbed } from 'react-twitter-embed';
+
 /**
 * @author
 * @function RecentPosts
@@ -12,6 +14,7 @@ const RecentPosts = (props) => {
   return(
     
     <div style={props.style}>
+    
    <Tweet style={{ padding:'20px',display: 'flex'}}/> 
    <h2>
      
