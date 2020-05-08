@@ -1,5 +1,24 @@
 {
     "data":[
+      {
+        "id": 4,
+        "blogCategory": "Destacada",        
+        "blogTitle": "19.258.084 personas han respondido la encuesta del Sistema Patria",
+        "slug":"19258084-personas-han-respondido-encuesta-del-sistema-patria",
+        "postedOn": "Mayo 06,2020",
+        "blogImage":"6mayo.jpg",        
+        "blogText": "Un total de 19.258.084 personas han respondido la encuesta del Sistema Patria, impulsada por el Ejecutivo Nacional para detectar los casos de coronavirus Covid-19, indicó este miércoles el ministro para la Comunicación e Información, Jorge Rodríguez.", 
+        "blogText2": "En declaraciones transmitidas por Venezolana de Televisión, Rodríguez indicó que, de las personas que respondieron la encuesta Patria, se ha visitado un total de 200.252 personas. ",
+        "blogText3": "Desde la Sala de Prensa «Simón Bolívar» del Palacio de Miraflores, en Caracas; el ministro para la Comunicación e Información señaló que del total de personas visitadas, 23.475 se les realizó la visita casa por casas, tras presentar alguno de los síntomas del coronavirus.",
+        "blogText4": "Para este trabajo, explicó Rodríguez; se cuenta con un despliegue de 11.110 trabajadores de la salud, entre los que se encuentra la Misión Médico cubana. ",
+        "blogText5": "El Sistema Patria ha venido actualizando la encuesta de prevención del Covid-19 para la detección temprana de posibles casos positivos del virus en el país.",
+        "blogText6": "Entre las actualizaciones de la encuesta, se incorpora los nuevos síntomas que se están detectando a escala global, así como los antecedentes de enfermedades que pueden considerarse de alto riesgo. ",
+        "blogText7": "En estos casos, los datos de contacto y dirección de residencia de la persona que está realizando el registro, se enviará al Área de Salud Integral Comunitaria (Asic).",
+        "blogText8": "Asimismo, la encuesta se repetirá en la parte asociada a los síntomas y contacto con pacientes positivos al Covid-19, la reiteración será diaria a las personas que presentan algún síntoma y para el caso de los que reportan no tener ninguno se repetirá en tres días.",
+        "blogText9": "Para garantizar el correcto reporte y verificación de esta información después del registro, deberá confirmarse con un código enviado por mensaje de texto al teléfono principal registrado la Plataforma Patria.",
+        "author": "Ultimas Noticias",
+        "webAuthor": "http://www.ultimasnoticias.com.ve/noticias/mas-vida/19-258-084-personas-han-respondido-la-encuesta-del-sistema-patria/"  
+        },
     {
       "id": 3,
       "blogCategory": "Destacada",        
