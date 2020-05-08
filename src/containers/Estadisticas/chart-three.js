@@ -6,11 +6,12 @@ class ChartThree extends Component{
     super(props);
     this.state = {
       chartData:{
-        labels: ['Enero','Febrero','Marzo'],
+        labels: ['Enero','Febrero','Marzo','Abril'],
         datasets:[{
             label: 'Beneficiaros',
-            data:[189.631,207.394,122.308],
+            data:[189.631,207.394,122.308,64.879],
             backgroundColor:[
+                'rgb(70,132,238,0.7)',
                 'rgb(70,132,238,0.7)',
                 'rgb(70,132,238,0.7)',
                 'rgb(70,132,238,0.7)'

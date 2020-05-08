@@ -11,7 +11,7 @@ class Chartdos extends Component{
         , 'Preventiva'],
         datasets:[{
             label: 'Actividades',
-            data:[246,245,734,313,166,383,244,524],
+            data:[153,80,47,30,61,128,174,268],
             backgroundColor:[
                 'rgb(70,132,238,0.7)',
                     'rgb(220,57,28,0.7)',

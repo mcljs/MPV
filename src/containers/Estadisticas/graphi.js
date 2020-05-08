@@ -10,7 +10,7 @@ class Chartone extends Component{
         'Adultos','Adultos Mayores'],
         datasets:[{
             label: 'Beneficiaros',
-            data:[15.177,11.410,33.509,21.820,12.991],
+            data:[10.225,6.774,16.339,10.138,10.351],
             backgroundColor:[
                 'rgb(0,128,0,0.7)',
                 'rgb(255,153,0,0.7)',

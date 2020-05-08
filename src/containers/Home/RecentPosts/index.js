@@ -15,6 +15,30 @@ const RecentPosts = (props) => {
     
     <div style={props.style}>
     
+    <Card style={{marginBottom: '20px',display: "flex",
+    position: "relative"}}>
+  
+  <div className="titlerecentepost" style={{textAlign:'center'}}>
+        <h2><NavLink to='/Noticias/19258084-personas-han-respondido-encuesta-del-sistema-patria'
+        style={{textDecoration:'none', color: '#e41e25', textAlign: 'center',fontSize: '30px'}}
+        >19.258.084 personas han respondido la encuesta del Sistema Patria
+        </NavLink></h2>
+        
+        <div className="postimageWrapper">
+    <img src={require("../../../blogNoticeimages/6mayo.jpg")} alt=""/>
+            </div>
+        <time>06 Mayo 2020</time>
+        <p>Un total de 19.258.084 personas han respondido la encuesta del Sistema Patria, 
+          impulsada por el Ejecutivo Nacional para detectar los casos de coronavirus Covid-19.</p>
+    </div>
+    </Card>
+
+
+
+
+
+
+
    <Tweet style={{ padding:'20px',display: 'flex'}}/> 
    <h2>
      

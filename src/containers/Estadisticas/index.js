@@ -22,26 +22,26 @@ const Estadisticas = (props) => {
     </div>
     <div className="separation">
     <div className="statwidget-estadisticas">
-    <header><p>Total de Beneficiarios Atendidas</p>
-    <section className="statbody">122.308</section></header>
+    <header><p>Total de Beneficiarios Atendidas Abril</p>
+    <section className="statbody">64.879</section></header>
 </div>
 
 
 
     <div class="statwidget-estadisticas">
-    <header><p>Actividades Realizadas</p>
-    <section class="statbody">10.946</section></header>
+    <header><p>Actividades Realizadas Abril</p>
+    <section class="statbody">941</section></header>
 </div>
 
 </div>
 
 <div className="grafica">
-<p>Poblacion Atendida por Grupo Etario Marzo</p>
+<p>Poblacion Atendida por Grupo Etario Abril</p>
 <Chartone/>
 </div>
 
 <div className="grafica">
-<p>Actividades Realizadas Marzo</p>
+<p>Actividades Realizadas Abril</p>
 <Chartdos/>
 </div>
 
