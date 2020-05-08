@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Bar, Line, Pie} from 'react-chartjs-2';
 
+//Actualizada hasta Marzo//
 class ChartFour extends Component{
   constructor(props){
     super(props);
