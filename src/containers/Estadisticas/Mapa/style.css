@@ -1,0 +1,151 @@
+.widget_covid19_mapa_vnz {
+    max-width: 100%;
+    margin: 0 15px 40px;
+    background-size: cover;
+    border-radius: .25rem;
+    box-shadow: 0 0 0.25rem rgba(0,0,0,.08), 0 0.5rem 0.75rem rgba(0,0,0,.14);
+    padding: 0;
+    background-color: #d9ecff;
+    position: relative;
+}
+#svgMapCOVID19VNZ {
+    max-width: 100%;
+}
+#svgMapCOVID19VNZ svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+#svgMapCOVID19VNZ * {
+    box-sizing: border-box;
+    outline: none;
+}
+
+#svgMapCOVID19VNZ .svgMap-map-controls-wrapper {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1;
+    display: flex;
+    overflow: hidden;
+    border-radius: 2px;
+    box-shadow: 0 0 0 2px rgba(0,0,0,.1);
+}
+#svgMapCOVID19VNZ .svgMap-map-controls-zoom:last-child{
+    margin-right: 0;
+}
+#svgMapCOVID19VNZ .svgMap-map-controls-zoom{
+    display: flex;
+    overflow: hidden;
+    background: #fff;
+}
+#svgMapCOVID19VNZ .svgMap-control-button {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+#svgMapCOVID19VNZ .svgMap-control-button.svgMap-zoom-button:before {
+    width: 11px;
+    height: 3px;
+}
+
+#svgMapCOVID19VNZ .svgMap-control-button.svgMap-zoom-button:before
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #666;
+    transition: background-color .2s; 
+}
+#svgMapCOVID19VNZ .svgMap-control-button.svgMap-zoom-in-button:after {
+    width: 3px;
+    height: 11px;
+}
+#svgMapCOVID19VNZ .svgMap-control-button.svgMap-zoom-button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #666;
+    transition: background-color .2s;
+}
+.svgMap-tooltip {
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+    position: absolute;
+    z-index: 2;
+    border-radius: 2px;
+    background: #fff;
+    transform: translate(-50%,-100%);
+    border-bottom: 1px solid #000;
+    display: none;
+    pointer-events: none;
+    min-width: 60px;
+}
+
+.svgMap-tooltip .svgMap-tooltip-content-container {
+    position: relative;
+    padding: 10px 20px;
+}
+
+.svgMap-tooltip .svgMap-tooltip-title {
+    white-space: nowrap;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0 0 8px;
+    text-align: center;
+    color: #0961af;
+}
+
+.svgMap-tooltip .svgMap-tooltip-content {
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin: -5px 0 0;
+}
+.svgMap-tooltip .svgMap-tooltip-content table {
+    padding: 0;
+    border-spacing: 0px;
+    margin: auto;
+    border: none;
+}
+.svgMap-tooltip .svgMap-tooltip-content table td:first-child {
+    padding-right: 10px;
+    text-align: right!important;
+}
+.svgMap-tooltip .svgMap-tooltip-content table td {
+    padding: 2px 0;
+    text-align: left;
+    border: none;
+}
+.svgMap-tooltip .svgMap-tooltip-content table td span {
+    color: #111;
+}
+
+.svgMap-tooltip .svgMap-tooltip-pointer {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    height: 10px;
+    width: 30px;
+}
+.svgMap-tooltip {
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+    position: absolute;
+    z-index: 2;
+    border-radius: 2px;
+    background: #fff;
+    transform: translate(-50%,-100%);
+    border-bottom: 1px solid #000;
+    display: none;
+    pointer-events: none;
+    /* min-width: 60px; */
+}
+
+

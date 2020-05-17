@@ -6,6 +6,8 @@ import Chartdos from './chart-two';
 import ChartThree from './chart-three';
 import ChartFour from './chart-four';
 import Layout from '../../components/Layout';
+import Maps from './Mapa/map';
+
 /**
 * @author
 * @function Estadisticas
@@ -56,6 +58,9 @@ const Estadisticas = (props) => {
 <ChartFour/>
 </div>
 
+<div className="grafica">
+  <Maps/>
+</div>
     </Card>
    )
  }
