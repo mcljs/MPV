@@ -3,7 +3,7 @@ import './App.css';
 import Home from './containers/Home';
 import Header from './components/Header';
 import Hero from './components/Hero'
-import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import {HashRouter as Router,Switch,Route} from 'react-router-dom';
 import Estadisticas from './containers/Estadisticas';
 import Post from './containers/Noticias';
 import nosotros from './containers/nosotros';

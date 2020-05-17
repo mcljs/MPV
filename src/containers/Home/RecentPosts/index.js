@@ -39,10 +39,7 @@ const RecentPosts = (props) => {
 
 
 
-   <Tweet style={{ padding:'20px',display: 'flex'}}/> 
-   <h2>
-     
-   </h2>
+   
 
     <Card style={{marginBottom: '20px',display: "flex",
     position: "relative"}}>
