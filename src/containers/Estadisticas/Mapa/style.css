@@ -1,5 +1,5 @@
 .widget_covid19_mapa_vnz {
-    max-width: 100%;
+    max-width: 120%;
     margin: 0 15px 40px;
     background-size: cover;
     border-radius: .25rem;
@@ -8,11 +8,12 @@
     background-color: #d9ecff;
     position: relative;
 }
+
 #svgMapCOVID19VNZ {
     max-width: 100%;
 }
 #svgMapCOVID19VNZ svg {
-    max-width: 100%;
+    max-width: 120%;
     height: auto;
     display: block;
 }
@@ -20,6 +21,7 @@
     box-sizing: border-box;
     outline: none;
 }
+
 
 #svgMapCOVID19VNZ .svgMap-map-controls-wrapper {
     position: absolute;
